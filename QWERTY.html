@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <titile>qWeRtYs </titile>
+        <style>
+            body
+            {
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
+                    height:100vh;
+                    background-color:azure;
+                    font-family:Arial,sans-serif;
+            }
+            button
+            {
+                    padding:15px 30px;
+                    font-size: 18px;
+                    cursor:pointer;
+                    border:none;
+                    border-radius: 5px;
+                    background-color: rgb(71, 139, 139);
+                    color:white;
+            }            
+            button:hover
+            {
+                background-color: bisque;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <botton id="qWeRtYs"> ----JUST TOUCH IT</botton>
+
+        <script>
+            const websites= [
+                'https://tlauncher.org/en/',
+                'https://store.steampowered.com/',
+                'https://www.vpn.com/',
+                'https://www.instagram.com/',
+                'https://discord.com/',
+                'https://hianime.to/',
+                'https://parivahan.gov.in/parivahan/',
+                'https://poki.com/',
+                'https://www.chess.com/',
+                'https://nothing.com/',
+                'https://anniyan.in/',
+                'https://chatgpt.com/',
+  
+            ];
+
+            document.getElementById('qWeRtYs').onclick = function() 
+            {
+                const randomIndex = Math.floor(Math.random() * websites.length);
+                window.open(websites[randomIndex], '_blank');
+            };
+        </script>
+    </body>
+</html>>
